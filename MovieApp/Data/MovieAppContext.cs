@@ -14,6 +14,7 @@ namespace MovieApp.Data
         {
         }
 
-        public DbSet<MovieApp.Models.Movie> Movie { get; set; }
+        public DbSet<Movie> Movie { get; set; }
+        public DbSet<TestModel> TestModel { get; set; }
     }
 }
